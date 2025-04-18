@@ -75,4 +75,25 @@ bool search(TrieNode* root, const string& key) {
     return curr->isLeaf;
 }
 
-//(3)
+//(3)Method to check if a prefix exists in the Trie
+bool isPrefix(TrieNode *root, const string &prefix)
+{
+    // Initialize the curr pointer with the root node
+    TrieNode *curr = root;
+
+    // Iterate across the length of the prefix string
+    for (char c : prefix)
+    {
+        // Check if the node exists for the current character in the Trie
+        if (curr->children[c - 'a'] == nullptr)
+            return false;
+
+        // Move the curr pointer to the already existing node
+        // for the current character
+        curr = curr->children[c - 'a'];
+    }
+
+    // If we reach here, the prefix exists in the Trie
+    return true;
+  
+}
