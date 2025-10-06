@@ -13,3 +13,25 @@ APProach:-
   //   4. Return total count
 
   
+// CountTurn(LCA, Target_node, count, Turn)
+
+// // if found the key value in tree 
+// if (root->key == key)
+//     return true;
+// case 1: 
+//    If Turn is true that means we are 
+//       in left_subtree  
+//    If we going left_subtree then there 
+//       is no need to increment count 
+//    else
+//       Increment count and set turn as false  
+// case 2:
+//    if Turn is false that means we are in
+//       right_subtree    
+//    if we going right_subtree then there is
+//       no need to increment count else
+//    increment count and set turn as true.
+
+// // if key is not found.
+// return false;
+ 
