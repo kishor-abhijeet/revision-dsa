@@ -8,4 +8,4 @@ if (isalnum(ch1)) {
 // using transform() function and ::toupper in STL// similarly for tolower
     transform(s1.begin(), s1.end(), s1.begin(), ::toupper);
     cout<<s1<<endl;
-//3.)
+//3.)isalnum() and isalpha () helps to find alphanumeric characters from a string 
