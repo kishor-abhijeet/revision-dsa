@@ -76,9 +76,6 @@ public:
         vector<long long> same(n + 1), diff(n + 1);
 
         // Base cases
-        same[1] = 0;
-        diff[1] = k;
-
         same[2] = k;
         diff[2] = k * (k - 1);
 
