@@ -1,6 +1,6 @@
 # 🚀 Learn-DSA-Like-a-Pro
 
-Welcome to **Learn DSA as a PRO** — a repository designed for developers who want to go beyond solving standard DSA problems and start thinking like candidates who crack top product-based companies, high-growth startups, and leading service-based organizations.
+Welcome to **Learn-DSA-Like-a-Pro** — a repository designed for developers who want to go beyond solving standard DSA problems and start thinking like candidates who crack top product-based companies, high-growth startups, and leading service-based organizations.
 
 ## 🎯 Vision
 
